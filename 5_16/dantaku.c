@@ -8,7 +8,7 @@ int main(void){
     
     int mode,a,b,n;
 printf("モードを選択してください。\n（1;+,2;-,3;*）\n");
-scanf("%d",&mode);
+scanf("%f",&mode);
 printf("一つ目の値の入力:\n");
 scanf("%f",&a);
 printf("二つ目の値の入力:\n");
@@ -26,7 +26,7 @@ else if(mode==3){
     printf("掛け算を選択しました。\n");
     n=kakeru(a,b);
 }
-else (){
+else {
     printf("不用なモードです。\n");
 }
 {
