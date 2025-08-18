@@ -1,10 +1,17 @@
  /* 全体の背景とフォント設定 */
 body {
   font-family: "Arial", sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #96d3ff;
+  color: #000000;
   line-height: 1.6;
   padding: 20px;
+}
+
+.bg_test {
+   height: 250px;                
+    padding:  20px;                 
+    font-size: 20px;                
+    
 }
 
 /* ヘッダータグの装飾 */
@@ -53,7 +60,7 @@ button {
   padding: 10px 20px;
   background-color: #28a745;
   border: none;
-  color: white;
+  color: rgb(183, 232, 252);
   border-radius: 5px;
   cursor: pointer;
 }
@@ -106,4 +113,21 @@ code {
   font-family: monospace;
   color: #d63384;
 }
+.px{
+  font-size: 20px;
+}
+.em{
+  font-size: 5em;
+}
 
+.underline01 {
+  background: #faff625e;
+}
+
+.underline02 {
+  background: linear-gradient(transparent 40%, #f5ff00 60%);
+}
+
+.underline03 {
+  background: linear-gradient(transparent 80%, #f5ff00 20%);
+}
